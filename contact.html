@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 4</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Assets/css/all.min.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="offcanvas offcanvas-end offcanvas-one d-block d-lg-none" id="menu">
+        <div class="offcanvas-header">
+                    <img src="Assets/Images/logo-png2.png" alt="">
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="d-flex justify-content-between my-4">
+                        <a href="index.html" class="text-dark"><strong>HOME</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+            <div class="d-flex justify-content-between my-4">
+                        <a href="#" class="text-dark"><strong>Gallery</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+            <div class="my-4">
+                        <a href="blog.html" class="text-dark"><strong>Blog</strong></a>
+            </div>
+            <div class="my-4">
+                        <a href="room.html" class="text-dark"><strong>Rooms</strong></a>
+            </div>
+            <div class="my-4">
+                        <a href="about.html" class="text-dark"><strong>About Us</strong></a>
+            </div>
+            <div class="d-flex justify-content-between my-4">
+                        <a href="contact.html" class="text-dark"><strong>Contact Us</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="info" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <img src="Assets/Images/logo-png2.png" alt="">
+            <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mb-5">
+                <h5 class="poppins size-30 text-blue"><strong>ABOUT US</strong></h5>
+                <p class="poppins">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex
+                    ea
+                    commodo consequat.
+                </p>
+                <button class="rounded-2 button1 border-0">CONTACT US</button>
+            </div>
+            <div>
+                <h5 class="poppins size-30 text-blue"><strong>CONTACT US</strong></h5>
+                <ul class="my-3">
+                    <li class="my-2">
+                        <span><i class="fas fa-map-marker-alt text-brown"></i></span>
+                        <span class="poppins ms-2">Bowery St., New York, USA</span>
+                    </li>
+                    <li class="my-2">
+                        <span><i class="fa-solid fa-phone text-brown"></i></span>
+                        <span class="poppins ms-2">+1255-568-6523</span>
+                    </li>
+                    <li class="my-2">
+                        <span><i class="fas fa-envelope-open-text text-brown"></i></span>
+                        <span class="poppins ms-2">information@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="icon">
+                    <ul class="icon2 d-flex flex-wrap text-center gap-2 text-white">
+                        <li>
+                            <i class="fa-brands fa-twitter rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-facebook-f rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-youtube rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram rounded"></i>
+                        </li>
+                    </ul> 
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <header class="bg-black">
+        <div class="container">
+            <div class="row d-flex align-items-center py-3">
+                <div class="col-12 col-lg-2 col-sm-6 d-flex justify-content-center justify-content-sm-start">
+                    <a href="index.html"><img src="Assets/Images/LOGO.png" class="img-fluid"></a>
+                </div>
+                <div class="col-7 d-none d-lg-block ">
+                    <nav class="navbar navbar-expand-lg bg-black">
+                        <div class="container">
+                            <div class="collapse navbar-collapse d-flex justify-content-center"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1 text-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Gallery</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="blog.html">Blog 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Rooms
+                                        </a>
+                                        <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="room.html">All Rooms</a></li>
+                                            <li><a class="dropdown-item" href="#">Luxury</a></li>
+                                            <li><a class="dropdown-item" href="#">Family</a></li>
+                                            <li><a class="dropdown-item" href="#">Standard</a></li>
+                                            <li><a class="dropdown-item" href="#">Economy</a></li>
+                                            <li><a class="dropdown-item" href="#">Deluxe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div
+                    class="icon col-12 col-lg-3 col-sm-6 pt-3 pt-sm-0 d-flex gap-4 justify-content-center justify-content-lg-end align-items-center">
+                    <a href="#" class="border button1 rounded-2 d-block text-center">BOOK NOW</a>
+                    <i class="fa-solid fa-magnifying-glass text-white"></i>
+                    <a href="#info" data-bs-toggle="offcanvas" class="d-none d-lg-block"><i class="fa-solid fa-bars text-white"></i></a>
+                    <a href="#menu" data-bs-toggle="offcanvas" class="d-block d-lg-none"><i class="fa-solid fa-bars text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="PageName bg3">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-7 col-sm-5 col-md-4 col-lg-3 text-center">
+                    <h3 class="text-blue py-2 px-2 size-40">Contact Us</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row pt-5 d-flex justify-content-start">
+                <div class="col-lg-8">
+                    <p class="text-blue size-20">GET IN TOUCH</p>
+                    <h3 class="size-50">Drop a message for any querry</h3>
+                    <p class="text-blue">Our objective at Bluebell is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality in the food we share.</p>
+                </div>
+            </div>
+            <div class="row d-flex align-items-start">
+                <div class="col-12 col-lg-8 message">
+                    <div class="col-12 d-flex flex-wrap">
+                        <div class="row">
+                            <div class="col-md-6 px-2">
+                                <input type="email" class="form-control shadow-none my-2 py-3 border-0"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6 px-2">
+                                <input type="email" class="form-control shadow-none my-2 py-3 border-0"
+                                    placeholder="Email">
+                            </div>
+                            <div class="col-md-6 px-2">
+                                <input type="email" class="form-control shadow-none my-2 py-3 border-0"
+                                    placeholder="Contact number">
+                            </div>
+                            <div class="col-md-6 px-2">
+                                <input type="email" class="form-control shadow-none my-2 py-3 border-0"
+                                    placeholder="Subject">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 px-2">
+                                <textarea class="form-control my-2 shadow-none border-0"
+                                    placeholder="Comments"></textarea>
+                                <a href="#" class="button1 text-white rounded-2 mt-2 mb-3">SUBMIT NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 ps-lg-5">
+                    <div class="col-12">
+                        <div class="w-100 pb-3 border-bottom">
+                            <p class="text-blue size-20 mb-2">Alpha Resort</p>
+                            <div class="d-flex py-2 align-items-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-dot s-20 p-2 rounded-3 text-white bg-blue"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <p class="text-grey m-0">3216 W Highland Boulevard
+                                        San Diego, California</p>
+                                </div>
+                            </div>
+                            <div class="d-flex py-2 align-items-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-envelope p-2 rounded-3 text-white bg-blue"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <p class="text-grey m-0">office@california.hotel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="w-100 py-3">
+                            <p class="text-blue size-20 mb-2">Reception Phone No.</p>
+
+                            <div class="d-flex py-2 align-items-center">
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone p-2 rounded-3 text-white bg-blue"></i>
+                                </div>
+                                <div class="ps-2">
+                                    <p class="text-grey m-0">+7863056267</p>
+                                </div>
+                            </div>
+                            <p class="text-grey my-2">Check in: 01.00 PM</p>
+                            <p class="text-grey my-2">Check in: 10.00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container"> 
+            <div class="row py-5">
+                <div class="col-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d87454.20078301406!2d72.8849434534307!3d21.233329840225768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1655994085206!5m2!1sen!2sin"
+                        width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue">
+        <div class="container">
+            <div class="row py-5">
+                <div class="cpl-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <img src="Assets/Images/LOGO - Copy.png" class="img-fluid pb-4">
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="mb-1 nunito size-20"><strong>Address</strong></p>
+                        <p>3216 , W Highland , Berlin
+                            San Diego ,
+                            California ,
+                            USA.</p>
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="mb-1 nunito size-20"><strong>Contact</strong></p>
+                        <p>+91 7863056267
+                            alpha@california.hotel</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">Rooms</h3>
+                    </div>
+                    <div class="col-12">
+                        <ul class="text-white">
+                            <li class="py-1">Standard Room</li>
+                            <li class="py-1">Double Room</li>
+                            <li class="py-1">Family Room</li>
+                            <li class="py-1">Standard Suite</li>
+                            <li class="py-1">Alpha Room</li>
+                            <li class="py-1">Deluxe Room</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">About us</h3>
+                    </div>
+                    <div class="col-12">
+                        <ul class="text-white">
+                            <li class="py-1">Overview</li>
+                            <li class="py-1">Contact</li>
+                            <li class="py-1">What to see</li>
+                            <li class="py-1">Places to visit</li>
+                            <li class="py-1">Hotel activities</li>
+                            <li class="py-1">Excursions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center ">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">Awards</h3>
+                    </div>
+                    <div class="col-12">
+                        <img src="Assets/Images/winter-awards.png" class="img-fluid text-black">
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="m-0">
+                            A wonderful serenity has taken possession of my entire soul, like the sweet mornings of
+                            springwhich enjoy with my whole heart.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="last bg-black">
+        <div class="container">
+            <div class="row d-flex align-items-center py-4">
+                <div class="col-12 col-md-9 d-flex align-items-center justify-content-lg-start justify-content-center">
+                    <div>
+                        <p class="text-white m-0">COPYRIGHT BY BOLDTHEMES 2016. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-3 mt-md-0 d-flex align-items-center justify-content-xl-end">
+                    <div class="icon icon1 col-12 d-flex justify-content-center">
+                        <ul class="d-flex flex-wrap text-center gap-2 text-white">
+                            <li>
+                                <i class="fa-brands fa-twitter rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-facebook-f rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram rounded"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="Assets/Js/popper.js"></script>
+    <script src="Assets/Js/bootstrap.min.js"></script>
+    <script>
+        const carousel = new bootstrap.Carousel('#myCarousel')
+    </script>
+
+</body>
+
+</html>

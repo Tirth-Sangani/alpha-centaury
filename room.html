@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 4</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Assets/css/all.min.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="offcanvas offcanvas-end offcanvas-one d-block d-lg-none" id="menu">
+        <div class="offcanvas-header">
+                    <img src="Assets/Images/logo-png2.png" alt="">
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="d-flex justify-content-between my-4">
+                        <a href="index.html" class="text-dark"><strong>HOME</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+            <div class="d-flex justify-content-between my-4">
+                        <a href="#" class="text-dark"><strong>Gallery</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+            <div class="my-4">
+                        <a href="blog.html" class="text-dark"><strong>Blog</strong></a>
+            </div>
+            <div class="my-4">
+                        <a href="room.html" class="text-dark"><strong>Rooms</strong></a>
+            </div>
+            <div class="my-4">
+                        <a href="about.html" class="text-dark"><strong>About Us</strong></a>
+            </div>
+            <div class="d-flex justify-content-between my-4">
+                        <a href="contact.html" class="text-dark"><strong>Contact Us</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="info" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <img src="Assets/Images/logo-png2.png" alt="">
+            <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mb-5">
+                <h5 class="poppins size-30 text-blue"><strong>ABOUT US</strong></h5>
+                <p class="poppins">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex
+                    ea
+                    commodo consequat.
+                </p>
+                <button class="rounded-2 button1 border-0">CONTACT US</button>
+            </div>
+            <div>
+                <h5 class="poppins size-30 text-blue"><strong>CONTACT US</strong></h5>
+                <ul class="my-3">
+                    <li class="my-2">
+                        <span><i class="fas fa-map-marker-alt text-brown"></i></span>
+                        <span class="poppins ms-2">Bowery St., New York, USA</span>
+                    </li>
+                    <li class="my-2">
+                        <span><i class="fa-solid fa-phone text-brown"></i></span>
+                        <span class="poppins ms-2">+1255-568-6523</span>
+                    </li>
+                    <li class="my-2">
+                        <span><i class="fas fa-envelope-open-text text-brown"></i></span>
+                        <span class="poppins ms-2">information@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="icon">
+                    <ul class="icon2 d-flex flex-wrap text-center gap-2 text-white">
+                        <li>
+                            <i class="fa-brands fa-twitter rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-facebook-f rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-youtube rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram rounded"></i>
+                        </li>
+                    </ul> 
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <header class="bg-black">
+        <div class="container">
+            <div class="row d-flex align-items-center py-3">
+                <div class="col-12 col-lg-2 col-sm-6 d-flex justify-content-center justify-content-sm-start">
+                    <a href="index.html"><img src="Assets/Images/LOGO.png" class="img-fluid"></a>
+                </div>
+                <div class="col-7 d-none d-lg-block ">
+                    <nav class="navbar navbar-expand-lg bg-black">
+                        <div class="container">
+                            <div class="collapse navbar-collapse d-flex justify-content-center"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1 text-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Gallery</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="blog.html">Blog 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Rooms
+                                        </a>
+                                        <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="room.html">All Rooms</a></li>
+                                            <li><a class="dropdown-item" href="#">Luxury</a></li>
+                                            <li><a class="dropdown-item" href="#">Family</a></li>
+                                            <li><a class="dropdown-item" href="#">Standard</a></li>
+                                            <li><a class="dropdown-item" href="#">Economy</a></li>
+                                            <li><a class="dropdown-item" href="#">Deluxe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div
+                    class="icon col-12 col-lg-3 col-sm-6 pt-3 pt-sm-0 d-flex gap-4 justify-content-center justify-content-lg-end align-items-center">
+                    <a href="#" class="border button1 rounded-2 d-block text-center">BOOK NOW</a>
+                    <i class="fa-solid fa-magnifying-glass text-white"></i>
+                    <a href="#info" data-bs-toggle="offcanvas" class="d-none d-lg-block"><i class="fa-solid fa-bars text-white"></i></a>
+                    <a href="#menu" data-bs-toggle="offcanvas" class="d-block d-lg-none"><i class="fa-solid fa-bars text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="PageName bg3">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-9 col-sm-6 col-md-5 col-lg-4 text-center">
+                    <h3 class="text-blue py-2 px-2 size-40">Rooms and Suits</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="allroom bg-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-5">
+                    <h3 class="text-black size-50 m-0">Our Rooms and Suits</h3>
+                    <p class="text-white m-0">Pick a room that best suits your taste and budget</p>
+                </div>
+                <div class="col-12">
+
+                    <div class="row bg-white d-flex align-items-center my-5">
+                        <div class="col-12 col-lg-6 px-4 py-4">
+                            <img src="Assets/Images/222.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-lg-6 px-4 py-4 d-flex flex-wrap">
+                            <div class="col-12">
+                                <h3 class="text-blue size-40 m-0">Standard Room</h3>
+                                <p class="text-grey">Nemo enim ipsam voluptatem quia voluptas sit asperna
+                                    aut odit aut fugit, sed quia consequuntur magni a volu
+                                    ptas sit aspernatur aut odit aut fugit.</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-blue mb-2 size-20"><strong>Room Facility</strong></p>
+                                <p class="text-grey">Beach View, Dinner Included, Fitness Area, Hotspot(WiFi),
+                                    Safe Deposit Swimimng Pool, Pets Allows</p>
+                            </div>
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="col-3 col-sm-2 col-lg-2">
+                                    <ul class="d-inline-block">
+                                        <li>
+                                            <p class="text-blue mb-0 size-25"><strong>$250</strong></p>
+                                        </li>
+                                        <li>
+                                            <p class="text-grey m-0">Per Night</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-5 col-xl-4 d-flex justify-content-md-start justify-content-lg-center justify-content-xl-start"> 
+                                    <a href="#" class="buttton rounded-2 button1 text-white text-center">VIEW ROOM</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-white d-flex align-items-center my-5">
+                        <div class="col-12 col-lg-6 px-4 py-4">
+                            <img src="Assets/Images/room p6.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-lg-6 px-4 py-4 d-flex flex-wrap">
+                            <div class="col-12">
+                                <h3 class="text-blue size-40 m-0">Deluxe Room</h3>
+                                <p class="text-grey">Nemo enim ipsam voluptatem quia voluptas sit asperna
+                                    aut odit aut fugit, sed quia consequuntur magni a volu
+                                    ptas sit aspernatur aut odit aut fugit.</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-blue mb-2 size-20"><strong>Room Facility</strong></p>
+                                <p class="text-grey">Beach View, Dinner Included, Fitness Area, Hotspot(WiFi),
+                                    Safe Deposit Swimimng Pool, Pets Allows</p>
+                            </div>
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="col-3 col-sm-2 col-lg-2">
+                                    <ul class="d-inline-block">
+                                        <li>
+                                            <p class="text-blue mb-0 size-25"><strong>$350</strong></p>
+                                        </li>
+                                        <li>
+                                            <p class="text-grey m-0">Per Night</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-5 col-xl-4 d-flex justify-content-md-start justify-content-lg-center justify-content-xl-start"> 
+                                    <a href="#" class="buttton rounded-2 button1 text-white text-center">VIEW ROOM</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-white d-flex align-items-center my-5">
+                        <div class="col-12 col-lg-6 px-4 py-4">
+                            <img src="Assets/Images/111.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-lg-6 px-4 py-4 d-flex flex-wrap">
+                            <div class="col-12">
+                                <h3 class="text-blue size-40 m-0">Economy Room</h3>
+                                <p class="text-grey">Nemo enim ipsam voluptatem quia voluptas sit asperna
+                                    aut odit aut fugit, sed quia consequuntur magni a volu
+                                    ptas sit aspernatur aut odit aut fugit.</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-blue mb-2 size-20"><strong>Room Facility</strong></p>
+                                <p class="text-grey">Beach View, Dinner Included, Fitness Area, Hotspot(WiFi),
+                                    Safe Deposit Swimimng Pool, Pets Allows</p>
+                            </div>
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="col-3 col-sm-2 col-lg-2">
+                                    <ul class="d-inline-block">
+                                        <li>
+                                            <p class="text-blue mb-0 size-25"><strong>$150</strong></p>
+                                        </li>
+                                        <li>
+                                            <p class="text-grey m-0">Per Night</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-5 col-xl-4 d-flex justify-content-md-start justify-content-lg-center justify-content-xl-start"> 
+                                    <a href="#" class="buttton rounded-2 button1 text-white text-center">VIEW ROOM</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-white d-flex align-items-center my-5">
+                        <div class="col-12 col-lg-6 px-4 py-4">
+                            <img src="Assets/Images/room p8.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-lg-6 px-4 py-4 d-flex flex-wrap">
+                            <div class="col-12">
+                                <h3 class="text-blue size-40 m-0">Family Room</h3>
+                                <p class="text-grey">Nemo enim ipsam voluptatem quia voluptas sit asperna
+                                    aut odit aut fugit, sed quia consequuntur magni a volu
+                                    ptas sit aspernatur aut odit aut fugit.</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-blue mb-2 size-20"><strong>Room Facility</strong></p>
+                                <p class="text-grey">Beach View, Dinner Included, Fitness Area, Hotspot(WiFi),
+                                    Safe Deposit Swimimng Pool, Pets Allows</p>
+                            </div>
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="col-3 col-sm-2 col-lg-2">
+                                    <ul class="d-inline-block">
+                                        <li>
+                                            <p class="text-blue mb-0 size-25"><strong>$300</strong></p>
+                                        </li>
+                                        <li>
+                                            <p class="text-grey m-0">Per Night</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-5 col-xl-4 d-flex justify-content-md-start justify-content-lg-center justify-content-xl-start"> 
+                                    <a href="#" class="buttton rounded-2 button1 text-white text-center">VIEW ROOM</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-white d-flex align-items-center my-5">
+                        <div class="col-12 col-lg-6 px-4 py-4">
+                            <img src="Assets/Images/room p5.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-lg-6 px-4 py-4 d-flex flex-wrap">
+                            <div class="col-12">
+                                <h3 class="text-blue size-40 m-0">Luxury Room</h3>
+                                <p class="text-grey">Nemo enim ipsam voluptatem quia voluptas sit asperna
+                                    aut odit aut fugit, sed quia consequuntur magni a volu
+                                    ptas sit aspernatur aut odit aut fugit.</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-blue mb-2 size-20"><strong>Room Facility</strong></p>
+                                <p class="text-grey">Beach View, Dinner Included, Fitness Area, Hotspot(WiFi),
+                                    Safe Deposit Swimimng Pool, Pets Allows</p>
+                            </div>
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="col-3 col-sm-2 col-lg-2">
+                                    <ul class="d-inline-block">
+                                        <li>
+                                            <p class="text-blue mb-0 size-25"><strong>$500</strong></p>
+                                        </li>
+                                        <li>
+                                            <p class="text-grey m-0">Per Night</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-5 col-xl-4 d-flex justify-content-md-start justify-content-lg-center justify-content-xl-start"> 
+                                    <a href="#" class="buttton rounded-2 button1 text-white text-center">VIEW ROOM</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="RoomBook bg2">
+        <div class="container py-5">
+            <div class="row d-flex align-items-center justify-content-center py-5">
+                <div class="col-12 col-xl-5">
+                    <h3 class="size-50 text-blue m-0">Our Rooms and Suits</h3>
+                    <p class="text-white">
+                        Fusce finibus orci dolor, a convallis dolor tincidunt at.
+                        Donec est augue, convallis ut feugiat non, euismod
+                        ac lorem. Suspendisse vel faucibus dui. In nulla ex,
+                        pulvinar ac lorem eget, pulvinar tincidunt magna.
+                    </p>
+                    <p class="text-white d-none d-lg-block">
+                        Fusce finibus orci dolor, a convallis dolor tincidunt at.
+                        Donec est augue, convallis ut feugiat non, euismod
+                        ac lorem. Suspendisse vel faucibus dui. In nulla ex,
+                        pulvinar ac lorem eget, pulvinar tincidunt magna.
+                    </p>
+                </div>
+                <div class="col-12 col-xl-5 row">
+                    <div class="col-6 ">
+                        <ul>
+                            <li class=" my-3 px-3 py-2 rounded-2 bg-white d-flex justify-content-between">
+                                <div><a href="#" class="text-black">Arrival Date</a></div>
+                                <div><i class="fa-solid fa-calendar-days text-blue"></i></div>
+                            </li>
+                            <li class=" my-3 px-3 py-2 rounded-2 bg-white d-flex justify-content-between">
+                                <div><a href="#" class="text-black">Choose a Room</a></div>
+                                <div><i class="fa-solid fa-sort-down text-blue"></i></div>
+                            </li>
+                            <li class=" my-3 px-3 py-2 rounded-2 bg-white d-flex justify-content-between">
+                                <div><a href="#" class="text-black">Adults</a></div>
+                                <div><i class="fa-solid fa-sort-down text-blue"></i></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li class=" my-3 px-3 py-2 rounded-2 bg-white d-flex justify-content-between">
+                                <div><a href="#" class="text-black">Departure Date</a></div>
+                                <div><i class="fa-solid fa-calendar-days text-blue"></i></div>
+                            </li>
+                            <li class=" my-3 px-3 py-2 rounded-2 bg-white d-flex justify-content-between">
+                                <div><a href="#" class="text-black">Children</a></div>
+                                <div><i class="fa-solid fa-sort-down text-blue"></i></div>
+                            </li>
+                            <li class="my-3">
+                                <a href="#"
+                                    class=" px-3 button button1 text-white py-2 rounded-2 d-flex justify-content-center ">BOOK
+                                    NOW</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue">
+        <div class="container">
+            <div class="row py-5">
+                <div class="cpl-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <img src="Assets/Images/LOGO - Copy.png" class="img-fluid pb-4">
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="mb-1 nunito size-20"><strong>Address</strong></p>
+                        <p>3216 , W Highland , Berlin
+                            San Diego ,
+                            California ,
+                            USA.</p>
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="mb-1 nunito size-20"><strong>Contact</strong></p>
+                        <p>+91 7863056267
+                            alpha@california.hotel</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">Rooms</h3>
+                    </div>
+                    <div class="col-12">
+                        <ul class="text-white">
+                            <li class="py-1">Standard Room</li>
+                            <li class="py-1">Double Room</li>
+                            <li class="py-1">Family Room</li>
+                            <li class="py-1">Standard Suite</li>
+                            <li class="py-1">Alpha Room</li>
+                            <li class="py-1">Deluxe Room</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">About us</h3>
+                    </div>
+                    <div class="col-12">
+                        <ul class="text-white">
+                            <li class="py-1">Overview</li>
+                            <li class="py-1">Contact</li>
+                            <li class="py-1">What to see</li>
+                            <li class="py-1">Places to visit</li>
+                            <li class="py-1">Hotel activities</li>
+                            <li class="py-1">Excursions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center ">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">Awards</h3>
+                    </div>
+                    <div class="col-12">
+                        <img src="Assets/Images/winter-awards.png" class="img-fluid text-black">
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="m-0">
+                            A wonderful serenity has taken possession of my entire soul, like the sweet mornings of
+                            springwhich enjoy with my whole heart.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="last bg-black">
+        <div class="container">
+            <div class="row d-flex align-items-center py-4">
+                <div class="col-12 col-md-9 d-flex align-items-center justify-content-lg-start justify-content-center">
+                    <div>
+                        <p class="text-white m-0">COPYRIGHT BY BOLDTHEMES 2016. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-3 mt-md-0 d-flex align-items-center justify-content-xl-end">
+                    <div class="icon icon1 col-12 d-flex justify-content-center">
+                        <ul class="d-flex flex-wrap text-center gap-2 text-white">
+                            <li>
+                                <i class="fa-brands fa-twitter rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-facebook-f rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram rounded"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="Assets/Js/popper.js"></script>
+    <script src="Assets/Js/bootstrap.min.js"></script>
+    <script>
+        const carousel = new bootstrap.Carousel('#myCarousel')
+    </script>
+
+</body>
+
+</html>

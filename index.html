@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 4</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Assets/css/all.min.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+</head>
+
+<body>
+    
+    <div class="offcanvas offcanvas-end offcanvas-one d-block d-lg-none" id="menu">
+        <div class="offcanvas-header">
+                    <img src="Assets/Images/logo-png2.png" alt="">
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="d-flex justify-content-between my-4">
+                        <a href="index.html" class="text-dark"><strong>HOME</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+            <div class="d-flex justify-content-between my-4">
+                        <a href="#" class="text-dark"><strong>Gallery</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+            <div class="my-4">
+                        <a href="blog.html" class="text-dark"><strong>Blog</strong></a>
+            </div>
+            <div class="my-4">
+                        <a href="room.html" class="text-dark"><strong>Rooms</strong></a>
+            </div>
+            <div class="my-4">
+                        <a href="about.html" class="text-dark"><strong>About Us</strong></a>
+            </div>
+            <div class="d-flex justify-content-between my-4">
+                        <a href="contact.html" class="text-dark"><strong>Contact Us</strong></a>
+                        <a href="#" class="plus">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="info" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <img src="Assets/Images/logo-png2.png" alt="">
+            <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mb-5">
+                <h5 class="poppins size-30 text-blue"><strong>ABOUT US</strong></h5>
+                <p class="poppins">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex
+                    ea
+                    commodo consequat.
+                </p>
+                <button class="rounded-2 button1 border-0">CONTACT US</button>
+            </div>
+            <div>
+                <h5 class="poppins size-30 text-blue"><strong>CONTACT US</strong></h5>
+                <ul class="my-3">
+                    <li class="my-2">
+                        <span><i class="fas fa-map-marker-alt text-brown"></i></span>
+                        <span class="poppins ms-2">Bowery St., New York, USA</span>
+                    </li>
+                    <li class="my-2">
+                        <span><i class="fa-solid fa-phone text-brown"></i></span>
+                        <span class="poppins ms-2">+1255-568-6523</span>
+                    </li>
+                    <li class="my-2">
+                        <span><i class="fas fa-envelope-open-text text-brown"></i></span>
+                        <span class="poppins ms-2">information@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="icon">
+                    <ul class="icon2 d-flex flex-wrap text-center gap-2 text-white">
+                        <li>
+                            <i class="fa-brands fa-twitter rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-facebook-f rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-youtube rounded"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram rounded"></i>
+                        </li>
+                    </ul> 
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <header class="bg-black sticky-top">
+        <div class="container">
+            <div class="row d-flex align-items-center py-3">
+                <div class="col-12 col-lg-2 col-sm-6 d-flex justify-content-center justify-content-sm-start">
+                    <a href="index.html"><img src="Assets/Images/LOGO.png" class="img-fluid"></a>
+                </div>
+                <div class="col-7 d-none d-lg-block ">
+                    <nav class="navbar navbar-expand-lg bg-black">
+                        <div class="container">
+                            <div class="collapse navbar-collapse d-flex justify-content-center"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1 text-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Gallery</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="blog.html">Blog 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Rooms
+                                        </a>
+                                        <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="room.html">All Rooms</a></li>
+                                            <li><a class="dropdown-item" href="#">Luxury</a></li>
+                                            <li><a class="dropdown-item" href="#">Family</a></li>
+                                            <li><a class="dropdown-item" href="#">Standard</a></li>
+                                            <li><a class="dropdown-item" href="#">Economy</a></li>
+                                            <li><a class="dropdown-item" href="#">Deluxe</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div
+                    class="icon col-12 col-lg-3 col-sm-6 pt-3 pt-sm-0 d-flex gap-4 justify-content-center justify-content-lg-end align-items-center">
+                    <a href="#" class="border button1 rounded-2 d-block text-center">BOOK NOW</a>
+                    <i class="fa-solid fa-magnifying-glass text-white"></i>
+                    <a href="#info" data-bs-toggle="offcanvas" class="d-none d-lg-block"><i class="fa-solid fa-bars text-white"></i></a>
+                    <a href="#menu" data-bs-toggle="offcanvas" class="d-block d-lg-none"><i class="fa-solid fa-bars text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- slider -->
+    <section class="sec1">
+        <div class="slider1">
+            <div class="row col-10 text-center mx-auto">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner Main ">
+
+                        <div class="carousel-item active text-center">
+                            <h1 class="size-70 mx-xxl-5  text-blue">Welocome to Alpha centaury Enjoy your vacation</h1>
+                            <p class="text-light mb-5">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the
+                                1500s, when an unknown printer took a galley of type and scrambled.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting.
+                            </p>
+                            <a href="#" class="button1 rounded-2 py-2 px-2 mx-2 my-2 border text-center ">OFFERS
+                                &
+                                DEALS</a>
+                            <a href="#" class="button1 rounded-2 button2 py-2 px-2 mx-2 my-2 border">DESCOVER
+                                MORE</a>
+                        </div>
+
+                        <div class="carousel-item text-center">
+                            <h1 class="size-70 mx-xxl-5  text-blue">Welocome to Alpha centaury Enjoy your vacation</h1>
+                            <p class="text-light mb-5">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the
+                                1500s, when an unknown printer took a galley of type and scrambled.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting.
+                            </p>
+                            <a href="#" class="button1 rounded-2 py-2 px-2 mx-2 my-2 border text-center ">OFFERS
+                                &
+                                DEALS</a>
+                            <a href="#" class="button1 rounded-2 button2 py-2 px-2 mx-2 my-2 border">DESCOVER
+                                MORE</a>
+                        </div>
+
+                        <div class="carousel-item text-center">
+                            <h1 class="size-70 mx-xxl-5  text-blue">Welocome to Alpha centaury Enjoy your vacation</h1>
+                            <p class="text-light mb-5">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the
+                                1500s, when an unknown printer took a galley of type and scrambled.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting.
+                            </p>
+                            <a href="#" class="button1 rounded-2 py-2 px-2 mx-2 my-2 border text-center ">OFFERS
+                                &
+                                DEALS</a>
+                            <a href="#" class="button1 rounded-2 button2 py-2 px-2 mx-2 my-2 border">DESCOVER
+                                MORE</a>
+                        </div>
+
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- check availability -->
+    <section class="sec2 my-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 form bg-light btns d-lg-flex justify-content-evenly text-center">
+                    <a href="#" class="rounded-2 text-black border-blue d-inline-block px-3 py-2">Arrival Date<i
+                            class="fa-solid fa-calendar-days ps-3"></i></a>
+                    <a href="#" class="rounded-2 text-black border-blue d-inline-block px-3 py-2">Departure Date<i
+                            class="fa-solid fa-calendar-days ps-3"></i></a>
+                    <a href="#" class="rounded-2 text-black border-blue d-inline-block px-3 py-2">Adults<i
+                            class="fa-solid fa-sort-down ps-3"></i></a>
+                    <a href="#" class="rounded-2 text-black border-blue d-inline-block px-3 py-2">Children<i
+                            class="fa-solid fa-sort-down ps-3"></i></a>
+                    <a href="#" class="button1 rounded-2 d-inline-block mt-1 mt-lg-0">Check Availability</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our offers -->
+    <section class="sec3 my-5">
+        <div class="container">
+            <div class="w-100">
+                <div class="row">
+
+                    <div class="col-12 col-lg-6 row">
+                        <div class="w-100 py-2">
+                            <h2 class="size-50 m-0">Our Offers</h2>
+                            <p class="text-blue"><strong><em>Pick a room that best suits ____</em></strong></p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eligendi expedita ratione
+                                laborum ducimus ipsam architecto omnis quidem ea laudantium nulla nobis facilis, sunt ex
+                                nostrum necessitatibus suscipit, deleniti veniam deserunt temporibus beatae odio?
+                                Consequuntur modi quidem dicta omnis dolorem ex expedita distinctio quis, ratione
+                                adipisci odio nam ea dignissimos, eos sequi.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 row d-flex align-items-center">
+                        <div class="col-6 position-relative">
+                            <div class="w-100">
+                                <img src="Assets/Images/1-21-1.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex flex-wrap">
+                            <div class="col-12 mb-3 position-relative">
+                                <div class="w-100">
+                                    <img src="Assets/Images/2.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-12 position-relative">
+                                <div class="w-100">
+                                    <img src="Assets/Images/1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- rooms and suits -->
+    <section class="sec4 bg-blue py-5">
+        <div class="container">
+            <div class="row">
+                <div class="row col-12">
+                    <h2 class="size-50 m-0">Rooms And Suits</h2>
+                    <p class="text-white"><strong><em>Pick a room that best suits your taste and budget</em></strong>
+                    </p>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-3 p-0 rounded-0 border-0">
+                    <div class="w-100 p-2 bg-blue">
+                        <img src="Assets/Images/2-6-1.jpg" class="card-img-top">
+                        <div class="card-body bg-blue py-3 px-0">
+                            <h4>Economy Room</h4>
+                            <p class="card-text text-white">Some quick example text to build on the card title and make
+                                up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <a href="#" class="button1 button3 rounded-2 bg-white">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-3 p-0 rounded-0 border-0">
+                    <div class="w-100 p-2 bg-blue">
+                        <img src="Assets/Images/1-24-1.jpg" class="card-img-top">
+                        <div class="card-body bg-blue py-3 px-0">
+                            <h4>Family Room</h4>
+                            <p class="card-text text-white">Some quick example text to build on the card title and make
+                                up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <a href="#" class="button1 button3 rounded-2 bg-white">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-3 p-0 rounded-0 border-0">
+                    <div class="w-100 p-2 bg-blue">
+                        <img src="Assets/Images/4-1.jpg" class="card-img-top">
+                        <div class="card-body bg-blue py-3 px-0">
+                            <h4>Standard Room</h4>
+                            <p class="card-text text-white">Some quick example text to build on the card title and make
+                                up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <a href="#" class="button1 button3 rounded-2 bg-white">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-3 p-0 rounded-0 border-0">
+                    <div class="w-100 p-2 bg-blue">
+                        <img src="Assets/Images/3-4-1.jpg" class="card-img-top">
+                        <div class="card-body bg-blue py-3 px-0">
+                            <h4>Deluxe Room</h4>
+                            <p class="card-text text-white">Some quick example text to build on the card title and make
+                                up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <a href="#" class="button1 button3 rounded-2 bg-white">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- news and blog -->
+    <section class="news py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="row col-12">
+                    <h2 class="size-50 m-0">News & Blog</h2>
+                    <p class="text-grey"><em>Morbi pharetra faucibus purus, nec pretium enim luctus quis. Pellentesque
+                            aliquet venenatis
+                            ante, quis pretium neque tristique eget. Integer in luctus urna. Aenean rutrum sodales
+                            pharetra.
+                        </em></p>
+                </div>
+                <div class="news card col-12 col-md-6 col-lg-4 p-0 rounded-0 border-0">
+                    <div class="w-100 p-2">
+                        <img src="Assets/Images/77.jpg" class="card-img-top">
+                        <div class="card-body bg-grey p-3">
+                            <span class="nunito letter-spacing"><i class="fa-solid fa-calendar-days pe-2"></i>JUNE
+                                7,2022</span>
+                            <p class="card-text mb-2 text-blue size-25">Lots of activities</p>
+                            <p class="card-text">Some quick example text to build on the card title and make
+                                up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <span><i class="fa-solid fa-pencil pe-2"></i>Sam<i
+                                    class="fa-solid fa-comments pe-2 ps-4"></i>20K<i
+                                    class="fa-solid fa-folder pe-2 ps-4"></i>10 Videos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news card col-12 col-md-6 col-lg-4 p-0 rounded-0 border-0">
+                    <div class="w-100 p-2">
+                        <img src="Assets/Images/88.jpg" class="card-img-top">
+                        <div class="card-body bg-grey p-3">
+                            <span class="nunito letter-spacing"><i class="fa-solid fa-calendar-days pe-2"></i>MARCH
+                                24,2022</span>
+                            <p class="card-text mb-2 text-blue size-25">Main pool reopened</p>
+                            <p class="card-text">Some quick example text to build on the card title and make
+                                up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <span><i class="fa-solid fa-pencil pe-2"></i>Robin<i
+                                    class="fa-solid fa-comments pe-2 ps-4"></i>30K<i
+                                    class="fa-solid fa-folder pe-2 ps-4"></i>Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news card col-12 col-md-6 col-lg-4 p-0 rounded-0 border-0">
+                    <div class="w-100 p-2">
+                        <img src="Assets/Images/99.jpg" class="card-img-top">
+                        <div class="card-body bg-grey p-3">
+                            <span class="nunito letter-spacing"><i class="fa-solid fa-calendar-days pe-2"></i>NOVEMBER
+                                10,2021</span>
+                            <p class="card-text mb-2 text-blue size-25">New family rooms</p>
+                            <p class="card-text">Some quick example text to build on the card title and make
+                                up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <span><i class="fa-solid fa-pencil pe-2"></i>Harry<i
+                                    class="fa-solid fa-comments pe-2 ps-4"></i>80K<i
+                                    class="fa-solid fa-folder pe-2 ps-4"></i>90 Pictures</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- activities -->
+    <section class="sec5 bg1">
+        <div class="container py-5">
+            <div class="row d-flex align-items-center justify-content-center py-5">
+                <div class="col-12 col-lg-6">
+                    <h3 class="size-50 text-blue m-0">Activities of lakecious ___</h3>
+                    <p class="text-white"><strong><em>Pick a room that best suits your taste and budget</em></strong>
+                    </p>
+                    <p class="text-grey">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat ratione consequuntur.
+                        Quam numquam vero iste aspernatur cumque autem accusamus voluptate.
+                    </p>
+                    <p class="text-grey d-none d-lg-block">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis natus modi, quos dolorum
+                        maiores vitae ab quo voluptatum? Similique labore voluptate amet facere, dolorem commodi
+                        consequatur aperiam rerum asperiores, debitis harum, dicta esse maxime cupiditate ipsam
+                        perferendis autem ipsum.
+                    </p>
+                    <a href="#" class="button1 rounded-2">ABOUT US<i class="fa-solid fa-arrow-right-long ps-2"></i></a>
+                </div>
+                <div class="col-12 col-lg-6 row">
+                    <div class="col-12 col-sm-6 text-center p-3">
+                        <div class="bg-white restaurent-4 border-1 py-4">
+                            <div>
+                                <img src="Assets/Images/FDVSFDVBFDVB.png" class="img-fluid d-block mx-auto">
+                            </div>
+                            <div>
+                                <span><em>Inhouse Restaurant</em></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 text-center p-3">
+                        <div class="bg-white restaurent-4 border-1 py-4">
+                            <div>
+                                <img src="Assets/Images/GRG.png" class="img-fluid d-block mx-auto">
+                            </div>
+                            <div>
+                                <span><em>Inhouse Restaurant</em></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 text-center p-3">
+                        <div class="bg-white restaurent-4 border-1 py-4">
+                            <div>
+                                <img src="Assets/Images/GRG.png" class="img-fluid d-block mx-auto">
+                            </div>
+                            <div>
+                                <span><em>Inhouse Restaurant</em></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 text-center p-3">
+                        <div class="bg-white restaurent-4 border-1 py-4">
+                            <div>
+                                <img src="Assets/Images/gym.png" class="img-fluid d-block mx-auto">
+                            </div>
+                            <div>
+                                <span><em>Inhouse Restaurant</em></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- in a nutshell -->
+    <section class="sec6">
+        <div class="container py-5">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-12 col-lg-5 py-2">
+                    <span class="nunito letter-spacing"><strong>IN A NUTSHELL</strong></span>
+                    <p class="card-text mb-2 text-blue size-30">Hotel Alpha</p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dolores nemo voluptas? Iste
+                        amet accusantium illo temporibus error animi perspiciatis, eaque eum! Vero, dolorum. Odio, totam
+                        nesciunt.
+                    </p>
+                    <p class="d-none d-xl-block">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dolores nemo voluptas? Iste
+                        amet accusantium illo temporibus error animi perspiciatis, eaque eum! Vero, dolorum. Odio, totam
+                        nesciunt.
+                    </p>
+                    <a href="#" class="button1 button rounded-2">READ MORE</a>
+                </div>
+                <div class="col-12 col-lg-7 mt-4 mt-lg-0">
+                    <img src="Assets/Images/bg1 copy.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row py-4 py-xl-2">
+                <div class="col-12 col-lg-9">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d87454.20078301406!2d72.8849434534307!3d21.233329840225768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1655994085206!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-12 col-lg-3 Contact py-lg-4 mt-4 mt-lg-0">
+                    <div class="d-flex">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot s-20 p-2 rounded-3 bg-blue"></i>
+                        </div>
+                        <div class="ps-2">
+                            <span class="size-25"><strong>Address</strong></span>
+                            <p>3216 W Highland Boulevard
+                                San Diego, California</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone p-2 rounded-3 bg-blue"></i>
+                        </div>
+                        <div class="ps-2">
+                            <span class="size-25"><strong>Phone</strong></span>
+                            <p>+555-40-220-6672</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope p-2 rounded-3 bg-blue"></i>
+                        </div>
+                        <div class="ps-2">
+                            <span class="size-25"><strong>Email</strong></span>
+                            <p>office@california.hotel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- drop a message -->
+    <section class="sec7 bg-blue">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-lg-5 row d-flex align-items-center">
+                    <div class="col-12 col-md-8 col-lg-12">
+                        <img src="Assets/Images/agent.png" class="img-fluid rounded-2">
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-12">
+                        <h5 class="text-white size-50 pt-3 m-0">Get in Touch</h5>
+                        <h3 class="m-0">Jane Doe</h3>
+                        <p class="text-white mb-1">(Senior Agent)</p>
+                        <p class="m-0">Phone: 604-786-4440</p>
+                        <p class="m-0">Email: info@contactjohndoe.com</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 mt-4 mt-lg-0">
+                    <h3 class="text-white size-50 m-0">Drop a Message</h3>
+                    <input type="email" class="form-control shadow-none my-3 py-2" placeholder="Your Name">
+                    <input type="email" class="form-control shadow-none my-3 py-2" placeholder="Your Email">
+                    <input type="email" class="form-control shadow-none my-3 py-2" placeholder="Subject">
+                    <textarea class="form-control my-3 shadow-none" placeholder="Comments"></textarea>
+                    <a href="#" class="button1 button3 rounded-2 mb-3">SUBMIT NOW<i
+                            class="fa-solid fa-arrow-right-long ps-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="sec8">
+        <div class="testimonial">
+            <div class="row col-md-12 text-center mx-auto">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <h2 class="m-0 size-50 text-blue">Testimonials</h2>
+                            <div class="col-6 mx-auto">
+                                <p class="mb-4 mb-lg-0 px-3 text-white">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-6 d-none d-lg-block mx-auto">
+                                <p class="px-5 text-white">
+                                    A exercitationem ut quam necessitatibus adipisci fuga totam id rerum voluptate
+                                    neque!
+                                </p>
+                            </div>
+                            <div class="col-3 col-md-3 col-sm-3 col-xl-2 p-0 p-lg-2 mx-auto">
+                                <img src="Assets/Images/client-3-200x200.jpg" class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-8 mx-auto">
+                                <p class=" pt-3 px-5 text-white">
+                                    Very good quality of food and service. Vast menu with child friendly items as well
+                                    as
+                                    local seafood and even entrees for those who dont like seafood. Great place! Thanks.
+                                    We
+                                    absolutely love everything there!
+                                </p>
+                            </div>
+                            <div class="col-8 d-none d-lg-block mx-auto">
+                                <p class=" px-5 text-white">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores atque,
+                                    exercitationem necessitatibus non animi reprehenderit earum dicta ad iusto in.
+                                </p>
+                            </div>
+                            <span class="nunito text-white size-30 d-block">BRAD SMITH</span>
+                            <span class="text-blue nunito">Superviser - Alpha centaury</span>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <h2 class="m-0 size-50 text-blue">Testimonials</h2>
+                            <div class="col-6 mx-auto">
+                                <p class="mb-4 mb-lg-0 px-3 text-white">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-6 d-none d-lg-block mx-auto">
+                                <p class="px-5 text-white">
+                                    A exercitationem ut quam necessitatibus adipisci fuga totam id rerum voluptate
+                                    neque!
+                                </p>
+                            </div>
+                            <div class="col-3 col-md-3 col-sm-3 col-xl-2 p-0 p-lg-2 mx-auto">
+                                <img src="Assets/Images/client-3-200x200.jpg" class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-8 mx-auto">
+                                <p class=" pt-3 px-5 text-white">
+                                    Very good quality of food and service. Vast menu with child friendly items as well
+                                    as
+                                    local seafood and even entrees for those who dont like seafood. Great place! Thanks.
+                                    We
+                                    absolutely love everything there!
+                                </p>
+                            </div>
+                            <div class="col-8 d-none d-lg-block mx-auto">
+                                <p class=" px-5 text-white">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores atque,
+                                    exercitationem necessitatibus non animi reprehenderit earum dicta ad iusto in.
+                                </p>
+                            </div>
+                            <span class="nunito text-white size-30 d-block">BRAD SMITH</span>
+                            <span class="text-blue nunito">Superviser - Alpha centaury</span>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <h2 class="m-0 size-50 text-blue">Testimonials</h2>
+                            <div class="col-6 mx-auto">
+                                <p class="mb-4 mb-lg-0 px-3 text-white">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-6 d-none d-lg-block mx-auto">
+                                <p class="px-5 text-white">
+                                    A exercitationem ut quam necessitatibus adipisci fuga totam id rerum voluptate
+                                    neque!
+                                </p>
+                            </div>
+                            <div class="col-3 col-md-3 col-sm-3 col-xl-2 p-0 p-lg-2 mx-auto">
+                                <img src="Assets/Images/client-3-200x200.jpg" class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-8 mx-auto">
+                                <p class=" pt-3 px-5 text-white">
+                                    Very good quality of food and service. Vast menu with child friendly items as well
+                                    as
+                                    local seafood and even entrees for those who dont like seafood. Great place! Thanks.
+                                    We
+                                    absolutely love everything there!
+                                </p>
+                            </div>
+                            <div class="col-8 d-none d-lg-block mx-auto">
+                                <p class=" px-5 text-white">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores atque,
+                                    exercitationem necessitatibus non animi reprehenderit earum dicta ad iusto in.
+                                </p>
+                            </div>
+                            <span class="nunito text-white size-30 d-block">BRAD SMITH</span>
+                            <span class="text-blue nunito">Superviser - Alpha centaury</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon text-black" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue">
+        <div class="container">
+            <div class="row py-5">
+                <div class="cpl-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <img src="Assets/Images/LOGO - Copy.png" class="img-fluid pb-4">
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="mb-1 nunito size-20"><strong>Address</strong></p>
+                        <p>3216 , W Highland , Berlin
+                            San Diego ,
+                            California ,
+                            USA.</p>
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="mb-1 nunito size-20"><strong>Contact</strong></p>
+                        <p>+91 7863056267
+                            alpha@california.hotel</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">Rooms</h3>
+                    </div>
+                    <div class="col-12">
+                        <ul class="text-white">
+                            <li class="py-1">Standard Room</li>
+                            <li class="py-1">Double Room</li>
+                            <li class="py-1">Family Room</li>
+                            <li class="py-1">Standard Suite</li>
+                            <li class="py-1">Alpha Room</li>
+                            <li class="py-1">Deluxe Room</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">About us</h3>
+                    </div>
+                    <div class="col-12">
+                        <ul class="text-white">
+                            <li class="py-1">Overview</li>
+                            <li class="py-1">Contact</li>
+                            <li class="py-1">What to see</li>
+                            <li class="py-1">Places to visit</li>
+                            <li class="py-1">Hotel activities</li>
+                            <li class="py-1">Excursions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 d-flex flex-wrap text-center align-items-center ">
+                    <div class="col-12">
+                        <h3 class="size-50 text-white">Awards</h3>
+                    </div>
+                    <div class="col-12">
+                        <img src="Assets/Images/winter-awards.png" class="img-fluid text-black">
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="m-0">
+                            A wonderful serenity has taken possession of my entire soul, like the sweet mornings of springwhich enjoy with my whole heart.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <section class="last bg-black">
+        <div class="container">
+            <div class="row d-flex align-items-center py-4">
+                <div class="col-12 col-md-9 d-flex align-items-center justify-content-lg-start justify-content-center">
+                    <div>
+                        <p class="text-white m-0">COPYRIGHT BY BOLDTHEMES 2016. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-3 mt-md-0 d-flex align-items-center justify-content-xl-end">
+                    <div class="icon icon1 col-12 d-flex justify-content-center">
+                        <ul class="d-flex flex-wrap text-center gap-2 text-white">
+                            <li>
+                                <i class="fa-brands fa-twitter rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-facebook-f rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube rounded"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram rounded"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="Assets/Js/popper.js"></script>
+    <script src="Assets/Js/bootstrap.min.js"></script>
+    <script>
+        const carousel = new bootstrap.Carousel('#myCarousel')
+    </script>
+
+</body>
+
+</html>
+
+
+
+                    
